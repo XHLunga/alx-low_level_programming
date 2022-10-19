@@ -16,7 +16,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		if (x != max)
-			printf("%ld\n", x);
+			printf("%ld, ", x);
 		else
 			printf("%ld\n", x);
 		z = x + y;
